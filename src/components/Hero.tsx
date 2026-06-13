@@ -14,8 +14,6 @@ export default function Hero() {
       ></div>
       <video className="hero-video" autoPlay muted loop playsInline>
         <source src="/replica.mp4" type="video/mp4" />
-        <source src="/replicate.mov" type="video/quicktime" />
-        <source src="https://asobi-agbada.vercel.app/hero.webm" type="video/webm" />
       </video>
       <div className="hero-overlay"></div>
       
