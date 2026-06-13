@@ -13,22 +13,55 @@ export default function Hero() {
         }}
       ></div>
       <video className="hero-video" autoPlay muted loop playsInline>
+        <source src="/replica.mp4" type="video/mp4" />
+        <source src="/replicate.mov" type="video/quicktime" />
         <source src="https://asobi-agbada.vercel.app/hero.webm" type="video/webm" />
       </video>
       <div className="hero-overlay"></div>
-      <div className="hero-content">
-        <p className="hero-eyebrow">Bespoke Agbada · Lagos</p>
-        <h1 className="hero-title">
-          Royalty,<br /><em>in every stitch.</em>
-        </h1>
-        <p className="hero-sub">
-          Hand-tailored Agbada for grooms, chiefs, and gentlemen of culture — from owambe to the throne.
-        </p>
-        <a href="#collections" className="hero-cta">Explore Collection</a>
+      
+      {/* LEFT POINTER */}
+      <div className="hero-left-pointer">
+        <div className="hero-pointer-text-wrap">
+          <p className="hero-pointer-text">Crafted in Enugu.</p>
+        </div>
+        <svg width="400" height="55" viewBox="0 0 400 55" fill="none" className="hero-pointer-svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="hero-line-gradient" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stopColor="white" stopOpacity="0"></stop>
+              <stop offset="0.55" stopColor="white" stopOpacity="0.5"></stop>
+              <stop offset="1" stopColor="white" stopOpacity="0.85"></stop>
+            </linearGradient>
+          </defs>
+          <path 
+            d="M 395,50 L 348,3 L 0,3" 
+            stroke="url(#hero-line-gradient)" 
+            strokeWidth="1" 
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+          ></path>
+          <circle cx="395" cy="50" fill="white" r="2"></circle>
+        </svg>
       </div>
+
+      {/* RIGHT CONTENT */}
+      <div className="hero-right-content">
+        <div className="hero-right-content-inner">
+          <p className="hero-eyebrow">Bespoke Classy Wears · Enugu</p>
+          <h1 className="hero-title">
+            Royalty,<br /><em>in every stitch.</em>
+          </h1>
+          <p className="hero-sub">
+            Exquisitely tailored premium garments for gentlemen and ladies of class, custom designed for every landmark occasion.
+          </p>
+          <div className="hero-cta-wrap">
+            <a href="/collection" className="hero-cta">Explore Collection</a>
+          </div>
+        </div>
+      </div>
+
+      {/* CENTERED SCROLL INDICATOR */}
       <div className="hero-scroll">
-        <span>Scroll</span>
-        <div className="hero-scroll-arrow">↓</div>
+        <span>↓ Scroll</span>
       </div>
     </section>
   );

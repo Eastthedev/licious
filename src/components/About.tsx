@@ -7,8 +7,8 @@ export default function About() {
     <section className="about" id="about">
       <Reveal className="about-image">
         <Image
-          src="https://asobi-agbada.vercel.app/_next/image?url=%2Fabout1.avif&w=3840&q=75"
-          alt="Inside the ÀṢỌBI atelier — tailors at work"
+          src="/about2.png"
+          alt="Suzilicious Collection Atelier"
           fill
           sizes="(max-width: 900px) 100vw, 50vw"
           priority={false}
@@ -18,14 +18,14 @@ export default function About() {
       <Reveal className="about-text">
         <p className="section-label">The Atelier Story</p>
         <h2 className="section-title">
-          Where heritage<br />meets couture.
+          Where modern vision<br />meets couture.
         </h2>
         <div className="gold-line"></div>
         <blockquote className="about-quote">
-          &ldquo;An agbada is not merely draped; it is a canvas of identity.&rdquo;
+          &ldquo;Bespoke tailoring is not merely sewing; it is the art of sculpting confidence.&rdquo;
         </blockquote>
         <p className="about-body">
-          Rooted in West African textile mastery, ÀṢỌBI brings architectural precision to ceremonial attire. Our master artisans spend upwards of eighty hours on a single piece, embedding custom Yoruba iconography.
+          Rooted in exceptional textile mastery, SUZILICIOUS COLLECTION brings architectural precision to bespoke classy wears. Our master artisans spend upwards of eighty hours on a single piece, tailoring perfect silhouettes for gentlemen and ladies of class.
         </p>
       </Reveal>
     </section>

@@ -3,7 +3,7 @@
 import React, { useEffect, useRef, useState } from "react";
 
 interface RevealProps {
-  children: React.ReactNode;
+  children?: React.ReactNode;
   className?: string;
   delay?: string;
 }

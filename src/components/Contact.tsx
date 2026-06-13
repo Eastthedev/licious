@@ -9,11 +9,11 @@ export default function Contact() {
         <Reveal className="section-title">Place your order.</Reveal>
         <Reveal className="gold-line"></Reveal>
         <Reveal className="contact-body">
-          Reach the atelier directly. We respond within twenty-four hours, every day. Bring your event date, your fabric preferences, and the silhouette you have in mind.
+          Reach the atelier directly. We respond within twenty four hours, every day. Bring your event date, your fabric preferences, and the silhouette you have in mind.
         </Reveal>
         <Reveal className="contact-actions">
           <a 
-            href="https://wa.me/2348012345678" 
+            href="https://wa.me/2348168871793" 
             className="btn-whatsapp" 
             target="_blank"
             rel="noopener noreferrer"
@@ -23,20 +23,24 @@ export default function Contact() {
             </svg>
             Chat on WhatsApp
           </a>
-          <a href="mailto:atelier@asobi.com" className="btn-email">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
+          <a href="mailto:suzychiamaka@gmail.com" className="btn-email">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
               <rect x="2" y="4" width="20" height="16" rx="2" />
               <path d="m2 7 10 7 10-7" />
             </svg>
-            atelier@asobi.com
+            suzychiamaka@gmail.com
           </a>
         </Reveal>
         <Reveal className="contact-studio">
-          <p className="contact-studio-name">ÀṢỌBI Atelier</p>
+          <p className="contact-studio-name">SUZILICIOUS COLLECTION</p>
           <p>
-            Victoria Island, Lagos<br />
+            <a href="https://wa.me/2348168871793" target="_blank" rel="noopener noreferrer" style={{ textDecoration: "none", color: "inherit" }}>
+              shop 67 grand mall, Abakaliki Road GRA Enugu
+            </a><br />
             By appointment only<br />
-            <a href="tel:+2348012345678">+234 801 234 5678</a>
+            <a href="https://wa.me/2348168871793" target="_blank" rel="noopener noreferrer">
+              +234 816 887 1793
+            </a>
           </p>
         </Reveal>
       </div>

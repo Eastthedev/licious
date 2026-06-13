@@ -40,24 +40,24 @@ export default function Navigation() {
     <>
       {/* ─── MOBILE MENU ─── */}
       <div className={`mobile-menu ${isOpen ? "open" : ""}`} id="mobileMenu">
-        <a href="#collections" onClick={closeMobile}>Collections</a>
-        <a href="#about" onClick={closeMobile}>About Us</a>
-        <a href="#services" onClick={closeMobile}>Services</a>
-        <a href="#contact" onClick={closeMobile}>Contact</a>
+        <a href="/collection" onClick={closeMobile}>Collections</a>
+        <a href="/#about" onClick={closeMobile}>About Us</a>
+        <a href="/#services" onClick={closeMobile}>Services</a>
+        <a href="/#contact" onClick={closeMobile}>Contact</a>
       </div>
 
       {/* ─── NAV ─── */}
       <nav id="nav" className={isScrolled ? "scrolled" : ""}>
-        <a href="#" className="nav-logo">
-          ÀṢỌBI <span>agbada atelier</span>
+        <a href="/" className="nav-logo">
+          SUZILICIOUS <span>collection</span>
         </a>
         <ul className="nav-links">
-          <li><a href="#collections">Collections</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#contact">Contact Us</a></li>
-          <li><a href="#services">Our Services</a></li>
+          <li><a href="/collection">Collections</a></li>
+          <li><a href="/#about">About Us</a></li>
+          <li><a href="/#contact">Contact Us</a></li>
+          <li><a href="/#services">Our Services</a></li>
         </ul>
-        <a href="#contact" className="nav-cta">Order</a>
+        <a href="https://wa.me/2348168871793" className="nav-cta" target="_blank" rel="noopener noreferrer">Order</a>
         <button 
           className={`nav-hamburger ${isOpen ? "open" : ""}`} 
           id="hamburger" 
