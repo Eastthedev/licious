@@ -46,7 +46,7 @@ export default function Hero() {
         <div className="hero-right-content-inner">
           <p className="hero-eyebrow">Bespoke Classy Wears · Enugu</p>
           <h1 className="hero-title">
-            Royalty,<br /><em>in every stitch.</em>
+            Fashion,<br /><em>modernized.</em>
           </h1>
           <p className="hero-sub">
             Exquisitely tailored premium garments for gentlemen and ladies of class, custom designed for every landmark occasion.
